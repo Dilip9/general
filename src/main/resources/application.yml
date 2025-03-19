@@ -1,0 +1,39 @@
+spring:
+  application:
+  name: General Learning Application
+  #DataSource related configurations
+  datasource:
+    url: jdbc:postgresql://localhost:5432/general_db
+    username: postgres
+    password: postgres
+    jpa:
+      hibernate:
+        ddl-auto: create-drop
+      show-sql: true
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  data:
+    mongodb:
+        uri: mongodb://localhost:27017/general_socio?authSource=admin
+
+# Swagger Documentation configuration
+springdoc:
+  api-docs:
+    path: /api-docs
+
+# Server port configuration
+server:
+  port: 8024
+
+# Logging configuration
+logging:
+  level:
+    root: warn
+
+
+# News Scrapping Credentials and URL
+# News https://newsapi.org/docs/get-started
+news:
+  api:
+    url: https://newsapi.org/v2/everything   #https://newsdata.io/api/1/news
+    key: 95ca6197dc944ea38f1a8580247bf0b9    #pub_75073919598feb11170c9d5f41b7572f720a8
