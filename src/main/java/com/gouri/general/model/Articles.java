@@ -9,6 +9,7 @@ import lombok.ToString;
 @Setter
 @ToString
 @Data
+
 public class Articles {
     private Source source;
     private String author;
