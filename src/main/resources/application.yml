@@ -36,4 +36,4 @@ logging:
 news:
   api:
     url: https://newsapi.org/v2/everything   #https://newsdata.io/api/1/news
-    key: 95ca6197dc944ea38f1a8580247bf0b9    #pub_75073919598feb11170c9d5f41b7572f720a8
+    key: 677*********    #pub_750739195
