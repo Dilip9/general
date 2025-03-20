@@ -4,6 +4,7 @@ package com.gouri.general.model;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 import java.util.Objects;
@@ -11,6 +12,7 @@ import java.util.Objects;
 @Getter
 @Setter
 @Data
+@Document
 public class NewsResponse {
 
     private String status;

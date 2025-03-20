@@ -23,6 +23,8 @@ target/
 /nbproject/private/
 /nbbuild/
 /dist/
+data/diagnostic.data/
+data/pg_stat_tmp/
 /nbdist/
 /.nb-gradle/
 build/
