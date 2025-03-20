@@ -17,7 +17,7 @@ public class NewsScrapServiceImpl implements NewsScrapService {
 
     @Override
     public Optional<NewsResponse> scrapNewsDataBasedOnQuery(String query) {
-        NewsResponse newsResponse = wrapper.fetchNews(query);
+        //NewsResponse newsResponse = wrapper.fetchNews(query);
 
         return Optional.ofNullable(wrapper.fetchNews(query));
 
