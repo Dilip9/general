@@ -37,3 +37,8 @@ news:
   api:
     url: https://newsapi.org/v2/everything   #https://newsdata.io/api/1/news
     key: 677*********    #pub_750739195
+
+# Facebook webhook configuration
+social:
+  config:
+    verify_token: gouricreation_24@August
