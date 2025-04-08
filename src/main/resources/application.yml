@@ -16,6 +16,15 @@ spring:
     mongodb:
         uri: mongodb://localhost:27017/general_socio?authSource=admin
 
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Ov23lieKdxBXtAX8RoYS
+            client-secret: 972a30d36363cc36e3946bba7152e550c9cc7819
+            scope: read:user, user:email
+
 # Swagger Documentation configuration
 springdoc:
   api-docs:
@@ -29,6 +38,26 @@ server:
 logging:
   level:
     root: warn
+
+#Spring Security configuration
+security:
+  user:
+    name: admin
+    password: admin
+  oauth2:
+    client:
+      registration:
+        google:
+          client-id: 1234567890-abcde12345.apps.googleusercontent.com
+          client-secret: abcdefghijklmnop
+          redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+          scope: profile, email
+      provider:
+        google:
+          authorization-uri: https://accounts.google.com/o/oauth2/auth
+          token-uri: https://oauth2.googleapis.com/token
+          user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+
 
 
 # News Scrapping Credentials and URL
