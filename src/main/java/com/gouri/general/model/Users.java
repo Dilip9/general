@@ -25,11 +25,14 @@ public class Users implements Serializable {
     @Column(length = 50, nullable = false)
     private String name;
     @Column(length = 15, unique = true)
-    private Long phoneNumber;
+    private String phoneNumber;
     @Column(length = 50, unique = true)
     private String emailId;
+    @Column(length = 50)
+    private String Nationality;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
 
     @PrePersist
     public void prePersist() {
@@ -41,15 +44,5 @@ public class Users implements Serializable {
     public void preUpdate() {
         updatedAt = LocalDateTime.now();
     }
-//    @Override
-//    public String toString() {
-//        return "Users{" +
-//                "id='" + id + '\'' +
-//                ", name='" + name + '\'' +
-//                ", phoneNumber=" + phoneNumber +
-//                ", emailId='" + emailId + '\'' +
-//                ", createdAt=" + createdAt +
-//                ", updatedAt=" + updatedAt +
-//                '}';
-//    }
+
 }

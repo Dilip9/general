@@ -37,7 +37,7 @@ server:
 # Logging configuration
 logging:
   level:
-    root: warn
+    root: info
 
 
 

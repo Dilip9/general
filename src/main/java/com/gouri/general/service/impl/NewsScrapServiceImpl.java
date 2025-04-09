@@ -1,7 +1,8 @@
-package com.gouri.general.service;
+package com.gouri.general.service.impl;
 
 import com.gouri.general.core.Wrapper;
 import com.gouri.general.model.NewsResponse;
+import com.gouri.general.service.NewsScrapService;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
