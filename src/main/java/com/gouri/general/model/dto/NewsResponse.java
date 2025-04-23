@@ -1,6 +1,7 @@
-package com.gouri.general.model;
+package com.gouri.general.model.dto;
 
 
+import com.gouri.general.model.Articles;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

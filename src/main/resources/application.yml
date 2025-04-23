@@ -16,6 +16,7 @@ spring:
     mongodb:
         uri: mongodb://localhost:27017/general_socio?authSource=admin
 
+# GitHub OAuth2 configuration
   security:
     oauth2:
       client:

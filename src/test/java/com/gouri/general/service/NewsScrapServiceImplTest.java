@@ -1,7 +1,7 @@
 package com.gouri.general.service;
 
 import com.gouri.general.core.Wrapper;
-import com.gouri.general.model.NewsResponse;
+import com.gouri.general.model.dto.NewsResponse;
 import com.gouri.general.service.impl.NewsScrapServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

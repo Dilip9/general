@@ -1,6 +1,6 @@
 package com.gouri.general.service;
 
-import com.gouri.general.model.NewsResponse;
+import com.gouri.general.model.dto.NewsResponse;
 
 import java.util.Optional;
 

@@ -1,6 +1,6 @@
 package com.gouri.general.core;
 
-import com.gouri.general.model.NewsResponse;
+import com.gouri.general.model.dto.NewsResponse;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

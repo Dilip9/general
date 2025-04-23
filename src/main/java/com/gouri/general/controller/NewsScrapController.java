@@ -1,6 +1,6 @@
 package com.gouri.general.controller;
 
-import com.gouri.general.model.NewsResponse;
+import com.gouri.general.model.dto.NewsResponse;
 import com.gouri.general.service.NewsScrapService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
